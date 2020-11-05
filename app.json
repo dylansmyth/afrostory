@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Afrostory",
+    "slug": "afrostory",
+    "sdkVersion": "39.0.0",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "app/assets/main_logo_512.png",
+    "splash": {
+      "image": "app/assets/transparentLogo2.png",
+      "resizeMode": "cover",
+      "imageResizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.afros.afrostory"
+    },
+    "android": {
+      "package": "com.afros.afrostory",
+      "googleServicesFile": "android/google-services.json"
+    },
+    "description": "Afrostory v1"
+  }
+}
